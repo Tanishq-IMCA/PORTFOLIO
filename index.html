@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="nav-logo">
+          <svg class="logo" width="40" height="40" viewBox="0 0 40 40">
+            <path d="M10 10 L30 10 L30 30 L10 30 Z" fill="none" stroke="#333" stroke-width="2" />
+            <path d="M10 10 L20 20 L30 10" fill="none" stroke="#333" stroke-width="2" />
+          </svg>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">John Doe</h1>
+        <p class="hero-subtitle">Frontend Developer</p>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="projects-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Project 4</h3>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
